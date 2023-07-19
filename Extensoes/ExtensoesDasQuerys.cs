@@ -10,10 +10,5 @@ namespace ApiTesteRavenDb.Extensoes
         {
             return sessao.Query<Pessoa>();
         }
-
-        public static IRavenQueryable<Pessoa> PorId(this IDocumentSession sessao)
-        {
-            return sessao.Query<Pessoa>();
-        }
     }
 }
